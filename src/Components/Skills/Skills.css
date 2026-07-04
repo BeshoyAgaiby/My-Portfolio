@@ -1,0 +1,107 @@
+.skill-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: #0dcaf0;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.04);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  background: rgba(13, 202, 240, 0.1);
+
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 3rem;
+}
+
+.html {
+  color: #e34f26;
+}
+
+.css {
+  color: #1572b6;
+}
+
+.js {
+  color: #f7df1e;
+}
+.bootstrap{
+    color:#7952B3;
+}
+.react{
+    color: #61DAFB;
+}
+
+.git{
+    color: #F05032;
+}
+
+.github{
+    color: #ffffff;
+}
+.node{
+    color: #339933;
+}
+
+.mongodb{
+    color: #47A248;
+}
+.express{
+    color: #68A063;
+}
+.python{
+    color:#3776AB;
+}
+
+.cpp{
+    color:#00599C;
+}
+
+.csharp{
+    color:#9B4F96;
+}
+
+.sql{
+    color:#336791;
+}
+.java{
+    color: #ED8B00;
+}
+.c-lang{
+    color: #A8B9CC;
+}
+.vscode{
+    color: #007ACC;
+}
+.postman{
+    color: #FF6C37;
+}
+.npm{
+    color: #CB3837;
+}
+
+.skill-item span {
+  font-weight: 600;
+  font-size: 1rem;
+}

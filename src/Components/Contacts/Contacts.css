@@ -1,0 +1,96 @@
+.contact-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: #0dcaf0;
+}
+
+.custom-input {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: white !important;
+  border-radius: 12px !important;
+  padding: 14px 18px !important;
+}
+
+.custom-input::placeholder{
+    color: #9ca3af !important;
+}
+
+.custom-input:focus{
+    background: rgba(255,255,255,.06) !important;
+    border-color: #0dcaf0 !important;
+    box-shadow: 0 0 15px rgba(13,202,240,.25) !important;
+    color: white !important;
+}
+
+/* ================= TABLET ================= */
+
+@media screen and (max-width: 992px) {
+
+  .contact-card{
+    width: 75% !important;
+  }
+
+  .image-border{
+    width: 320px;
+    height: 320px;
+  }
+
+  .main-title{
+    font-size: 4rem !important;
+  }
+
+  .navContent{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media screen and (max-width: 576px) {
+
+  .contact-card{
+    width: 100% !important;
+  }
+
+  .image-border{
+    width: 230px;
+    height: 230px;
+  }
+
+  .main-title{
+    font-size: 2.8rem !important;
+  }
+
+  .description{
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .skill-card{
+    padding: 20px;
+  }
+
+  .skill-item{
+    padding: 15px;
+  }
+
+  .skill-icon{
+    font-size: 2rem;
+  }
+
+  .contact-whats .btn{
+    margin: 15px 0 !important;
+  }
+
+}

@@ -1,0 +1,66 @@
+.about-img{
+    width:100%;
+    max-width:280px;
+}
+
+@media (max-width: 992px) {
+
+    #about{
+        text-align: center;
+    }
+
+    #about img{
+        max-width: 240px !important;
+        margin-bottom: 20px;
+    }
+
+    #about .text-secondary,
+    #about p{
+        max-width: 650px;
+        margin-inline: auto;
+    }
+
+    #about .d-flex.gap-3{
+        justify-content: center;
+    }
+
+    #about .d-flex.flex-wrap{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #about{
+        padding: 70px 0;
+    }
+
+    #about img{
+        max-width: 200px !important;
+    }
+
+    #about h2{
+        font-size: 2rem;
+    }
+
+    #about p{
+        font-size: .95rem;
+        line-height: 1.8 !important;
+    }
+
+    #about .badge{
+        font-size: .75rem !important;
+        padding: 5px 10px !important;
+    }
+
+    #about .d-flex.gap-3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about .btn{
+        width: 200px;
+    }
+
+}

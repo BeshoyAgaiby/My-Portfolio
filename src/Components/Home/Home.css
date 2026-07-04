@@ -1,0 +1,271 @@
+/* ================= HOME ================= */
+
+.home{
+
+    overflow:hidden;
+
+}
+
+/* ================= IMAGE ================= */
+
+.image-border{
+    width:420px;
+    height:420px;
+    padding:8px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#8b5cf6,#6366f1);
+    box-shadow:
+    0 0 25px rgba(139,92,246,.6),
+    0 0 60px rgba(99,102,241,.4);
+    animation:float 3s ease-in-out infinite;
+
+}
+
+.hero-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border:6px solid #111827;
+
+}
+
+/* ================= LEFT ================= */
+
+.display-1{
+
+    font-size:3.5rem!important;
+
+    font-weight:800;
+
+    margin-bottom:8px;
+
+}
+
+h4{
+
+    font-size:1.2rem;
+
+}
+
+h3{
+
+    font-size:1.5rem;
+
+}
+
+h2{
+
+    font-size:1.6rem;
+
+}
+
+.fs-5{
+
+    font-size:1.05rem!important;
+
+    line-height:1.9;
+
+    max-width:560px;
+
+}
+
+/* ================= ROLE ================= */
+
+.roles{
+
+    position:relative;
+
+    height:42px;
+
+    overflow:hidden;
+
+}
+
+.roles span{
+
+    display:block;
+
+    height:42px;
+
+    line-height:42px;
+
+    color:#0dcaf0;
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    animation:slide 2.5s infinite;
+
+}
+
+/* ================= BUTTON ================= */
+
+.btn{
+
+    padding:14px 36px!important;
+
+    font-size:1rem!important;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ================= ANIMATION ================= */
+
+@keyframes slide{
+
+0%,45%{
+
+transform:translateY(0);
+
+}
+
+50%,95%{
+
+transform:translateY(-42px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+/* ================= TABLET ================= */
+
+@media(max-width:992px){
+
+.home{
+
+text-align:center;
+margin-top:100px;
+
+}
+
+.home .row{
+
+flex-direction:column-reverse;
+
+}
+
+.fs-5{
+
+margin:auto;
+
+}
+
+.image-border{
+
+width:320px;
+
+height:320px;
+
+}
+
+.d-flex.gap-2{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:576px){
+.home{
+    margin-top:110px;
+}
+.display-1{
+
+font-size:3.2rem!important;
+
+}
+
+h4{
+
+font-size:1rem;
+
+}
+
+h3{
+
+font-size:1.2rem;
+
+}
+
+h2{
+
+font-size:1.2rem;
+
+}
+
+.roles span{
+
+font-size:1.2rem;
+
+}
+
+.fs-5{
+
+font-size:.95rem!important;
+
+}
+
+.image-border{
+
+width:250px;
+
+height:250px;
+
+}
+
+.btn{
+
+width:220px;
+
+}
+
+.d-flex.gap-2{
+
+flex-direction:column;
+
+gap:8px!important;
+
+}
+
+}

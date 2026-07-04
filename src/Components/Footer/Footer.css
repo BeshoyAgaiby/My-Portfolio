@@ -1,0 +1,15 @@
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #c084fc,
+    #ec4899,
+    #ef4444
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+li{
+    cursor: pointer;
+}
